@@ -5,8 +5,20 @@ SELECT * FROM employee;
 //UPDATE table_name SET column1=value1,... WHERE some_column=some_value;
 UPDATE Employees SET status="Hired" WHERE empName="Rama";
 
+//Delete the Orders table
+DELETE FROM Orders;
+
 //Get the current date
 SELECT GETDATE();
+
+//Check whether date passed to Query is the date of given format or not
+SELECT  ISDATE('1/08/13') AS "MM/DD/YY";
+
+//Print the name of the distinct employee whose DOB is between 01/01/1960 to 31/12/1975
+SELECT empName FROM Employees WHERE dob BETWEEN '01/01/1960' AND '31/12/1975'
+
+//Find number of employees according to gender  whose DOB is between 01/01/1960 to 31/12/1975
+SELECT sex, count(*) FROM Employees WHERE DOB BETWEEN '01/01/1960' AND '31/12/1975' GROUP BY sex;
 
 //SQL Query to get the highest salary from Employee table
 SELECT MAX(salary) FROM employee;
