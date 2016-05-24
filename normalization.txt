@@ -1,0 +1,11 @@
+What is normalization? Explain different forms of normalization?
+
+Normalization is a process of organizing the data to minimize the redundancy in the relational database management system (RDBMS). The use of normalization in database is to decompose the relations with anomalies to produce well structured and smaller relations. There are 6 forms of normalization which are as follows:-
+- 1NF represents a relation with no repeating groups
+- 2NF represents no non-prime attribute in the table 
+- 3NF defines that every non-prime attribute is non-transitively dependent on every candidate key
+- 4NF defines that every non-trival multi-valued dependency in table is dependent on superkey.
+- 5NF defines that every non-trival join dependency in table is implied by superkey in table.
+- 6NF defines that a table features no non-trival join dependency.
+
+Read more: http://java67.blogspot.com/2013/04/10-frequently-asked-sql-query-interview-questions-answers-database.html#ixzz49WsKWNe2
