@@ -1,4 +1,8 @@
 # Important SQL Queries
 
-###To Select all the data from Empployee Table
->SELECT * FROM employee
+###Create, Update and Delete
+###Date 
+###Where Clause
+###Self Join
+###Joins
+###Using important Reserved key words
