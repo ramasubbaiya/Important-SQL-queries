@@ -69,3 +69,9 @@ SELECT * FROM Employees e WHERE rowid = (SELECT MAX(rowid) FROM Employees p WHER
 //And to delete them ^
 DELETE FROM Employees e WHERE rowid != (SELECT MAX(rowid) FROM Employees p WHERE p.emp_no = e.emp_no);
 
+//21. Create a INDEX with firstname in Employees table
+CREATE INDEX EIndex ON Employees (firstname)
+
+
+
+
