@@ -52,7 +52,7 @@ SELECT * FROM Employees WHERE salary >= 10000;
 SELECT * FROM Employees WHERE LIKE "Rama%";
 
 //17. Find all the address - "80 Forest Manor" regardless of Upper, Lower or cases 
-SELECT * FROM Employees WHERE UPPER(address) LIKE "80 Forest Manor";
+SELECT * FROM Employees WHERE UPPER(address) LIKE "80 FOREST MANOR";
 
 //18. Find the students who got marks more than average marks of the class
 SELECT * FROM Students WHERE marks > (SELECT AVG(marks) FROM Students);
