@@ -5,4 +5,5 @@
 * Where Clause
 * Self Join
 * Joins
+* Index
 * Using important Reserved key words
