@@ -1,4 +1,4 @@
-#Important SQL Queries
+#Important SQL Queries to know
 
 * Create, Update and Delete
 * Date 
